@@ -1,0 +1,154 @@
+/*---------------
+ laptop
+ ------------------ */
+
+
+
+ @media (min-width: 1200px){
+    .fullPage header .container{
+        max-width: 1200px!important;
+        height: 100%;
+    }
+    .morePage--container{
+        max-width: 1250px!important;
+    }
+
+}
+
+
+
+
+/*---------------
+ Mobile vs Ipad
+ ------------------ */
+
+
+
+@media (max-width:1023px){
+
+
+
+    /*---------------
+       Header
+    ------------------ */
+
+
+    ul.nav.navbar-nav li svg{
+        display: none;
+    }
+    ul.nav.navbar-nav {
+        position: absolute;
+        top: 77px;
+        right: 0;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column!important;
+        background: #4a4a49ad;
+        padding: 20px;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    ul.nav.navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul.nav.navbar-nav li {
+        font-size: 15px;
+        font-weight: 600;
+        /* color: #ffffff; */
+        border-bottom: 2px solid #ffffff;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .nav.navbar-nav a {
+        color: #ffffff!important;
+    }
+    .navbar-brand_top {
+        text-align: left;
+        font-size: 19px;
+    }
+    .navbar-brand_bottom {
+        text-align: left;
+        font-size: 19px;
+    }
+    .menu-btn {
+        display: block;
+    }
+
+
+
+
+    /*---------------
+       Banner
+    ------------------ */
+
+
+    .bannerPage--intro {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+
+
+
+    /*---------------
+       solution
+    ------------------ */
+
+
+
+    .solutionsPage {
+        height: 100%;
+    }
+    .solutionsPage-solutions{
+        flex-direction: column;
+    }
+    .solution {
+        margin-bottom: 10px;
+    }
+    .intro {
+        margin-bottom: 10px;
+    }
+
+
+    .listWhy {
+        max-width: 100%!important;
+        width: 100%!important;
+    }
+    .morePage--info {
+        margin-left: 0!important;
+        max-width: 100%!important;
+        width: 100%!important;
+        margin-bottom: 10px;
+    }
+    .morePage--bonus{
+        margin-left: 0;
+    }
+    .footerPage--content {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/*-------------
+      Ipad     
+--------------*/
+
+
+@media(min-width:740px) and (max-width:1023px){
+
+}
+
+
+/*-------------
+    Mobile     
+--------------*/
+
+@media (max-width:739px){
+
+}
+
+
